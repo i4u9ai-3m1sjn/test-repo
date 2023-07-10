@@ -1,5 +1,5 @@
 #!/bin/bash
 gcloud pubsub schemas commit test-scheme \
-  --type=arvo \
+  --type=avro \
   --definition-file=./test_scheme_difinition_file.json
 
